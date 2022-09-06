@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Top Banner Section */
+.top-banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, black, transparent), url(images/top-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-banner-description {
+    color: white;
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.top-banner-title {
+    font-size: 60px;
+}
+
+.top-banner-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/* Donation Now Right Side Image */
+
+.donation-now-right {
+    display: flex;
+    margin-top: 100px;
+}
+
+.left-side-content {
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 800;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+.description {
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-right: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black
+}
+
+.donation-now-btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.812), tomato);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home-image {
+    position: relative;
+}
+
+.article-bg {
+    height: 400px;
+    width: 400px;
+    margin-right: 300px;
+}
+
+.play-button {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 150px;
+    border-radius: 100%;
+}
+
+.play-button:hover {
+    box-shadow: 5px 5px 40px lightcoral;
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+/* Donation Now Left Side Image */
+
+.donation-now-left {
+    display: flex;
+    margin-top: 100px;
+}
+
+.home1-image img {
+    height: 400px;
+    width: 440px;
+    margin-left: 300px;
+}
+
+.right-side-content {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.title1 {
+    text-align: justify;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-right: 300px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.description1 {
+    text-align: justify;
+    margin-right: 240px;
+    margin-bottom: 30px;
+    padding-right: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+/* Donation Now Left Side Video */
+
+.donation-now-left {
+    margin-top: 2%;
+}
+
+.home1-image video {
+    height: 400px;
+    width: 440px;
+    margin-left: 300px;
+}
+
+/* Donation Card Section */
+
+.donate-card-section {
+    margin-top: 100px;
+}
+
+.top-section {
+    text-align: center;
+}
+
+.top-section h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.top-section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.card-section {
+    margin: 50px 300px;
+    display: flex;
+}
+
+.card {
+    background-color: #FEF4F5;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #f3cbcf;
+    transition: .5s;
+    margin-top: -20px;
+}
+
+.card img {
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+.card-text {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.card-text h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.card-text p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card-margin {
+    margin-left: 50px;
+}
+
+/* Three image Section */
+
+.blank-img-section {
+    width: 100%;
+}
+
+.image-area {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.img-2 {
+    margin: 0px 30px;
+}
+
+/* Blog Section */
+
+.blog-area {
+    margin-top: 100px;
+}
+
+.blog-head {
+    text-align: center;
+}
+
+.blog-head h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.blog-head p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.blog-body {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    width: 0px;
+}
+
+.blog {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.blog-2 {
+    margin: 0 30px;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.text p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.text a {
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+/* Footer Section */
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(239, 68, 68);
+}
+
+.footer-text {
+    margin-top: -5px;
+    font-size: 12px;
+}
